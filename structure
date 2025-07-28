@@ -1,5 +1,20 @@
-Hospital_management/
-├── node_modules/
-├── index.js
-├── package.json
-├── package-lock.json
+hospital-management/
+├── models/
+│   ├── patient.js
+│   ├── doctor.js
+│   └── appointment.js
+├── routes/
+│   ├── patientRoutes.js
+│   ├── doctorRoutes.js
+│   └── appointmentRoutes.js
+├── views/
+│   ├── patients.ejs
+│   ├── doctors.ejs
+│   ├── appointments.ejs
+│   └── partials/
+│       ├── header.ejs
+│       └── footer.ejs
+├── public/
+│   └── css/
+├── app.js
+└── package.json
